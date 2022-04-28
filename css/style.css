@@ -1,0 +1,72 @@
+/* credits to codefoxx on Youtube for the tutorial on how to split a background into different colours */
+body {
+	height: 100vh;
+	background: linear-gradient(
+		to right,
+		#5C0D00 0%,
+		#5C0D00 15%,
+		#700f00 15%,
+		#700f00 20%,
+		#941400 20%,
+		#941400 25%,
+		#181111 25%,
+		#181111 75%,
+		#941400 75%,
+		#941400 80%,
+		#700f00 80%,
+		#700f00 85%,
+		#5C0D00 85%,
+		#5C0D00 100%
+	);
+}
+
+.margin1 {
+	text-align: center;
+	margin-left: 310px;
+	margin-right: 310px;
+}
+
+.margin2 {
+	text-align: center;
+	margin-left: 330px;
+	margin-right: 330px;
+}
+/* found out about this on flaviocopes so */
+.zoom {
+	zoom: 1.2;
+	color: #FFF;
+}
+
+h1 {
+	color: RGB(255, 255, 255);
+}
+
+h4 {
+	color: RGB(236, 51, 51);
+}
+
+p {
+	color: HSL(156, 0%, 100%);
+}
+
+h5 {
+	color: HSL(156, 0%, 100%);
+}
+
+h3 {
+	color: HSL(156, 0%, 100%);
+}
+
+.light1 {
+	position: absolute;
+  bottom: -90px;
+  left: 20px;
+}
+
+.light2 {
+	position: absolute;
+  bottom: -90px;
+  right: 20px;
+	/* learned how to flip an image from css-tricks.com */
+	transform: scaleX(-1);
+}
